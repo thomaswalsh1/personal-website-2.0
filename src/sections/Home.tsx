@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
-import MyPicture from "../assets/me.jpg"
+// import MyPicture from "../assets/me.jpg"
 import { LuMessageCircleQuestion } from "react-icons/lu";
-import { tsParticles } from "@tsparticles/engine";
+// import { tsParticles } from "@tsparticles/engine";
 
 export default function Home() {
     return (

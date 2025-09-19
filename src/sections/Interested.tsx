@@ -1,5 +1,5 @@
 import { RiUser3Line } from "react-icons/ri";
-import { MdOutlineFormatQuote } from "react-icons/md";
+// import { MdOutlineFormatQuote } from "react-icons/md";
 
 export default function Interested() {
     return (
