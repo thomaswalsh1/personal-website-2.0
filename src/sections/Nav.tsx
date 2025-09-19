@@ -24,10 +24,10 @@ export default function Nav() {
     return (
 
         <nav
-            className={`fixed top-0 left-0 border-green-500 border-2 w-full z-50 bg-black text-white white shadow-md transition-transform duration-300 ${showNav ? "translate-y-0" : "-translate-y-full"
+            className={`fixed top-0 left-0 border-green-500 border-b-2 w-full z-50 bg-black text-white white shadow-md transition-transform duration-300 ${showNav ? "translate-y-0" : "-translate-y-full"
                 }`}
         >
-            <div className="max-w-6xl mx-auto px-4 flex items-center justify-between h-16">
+            <div className="w-full mx-auto px-4 flex items-center justify-between h-16">
                 {/* Logo */}
                 <div className="text-xl font-bold">Thomas Walsh</div>
 
