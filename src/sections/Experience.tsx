@@ -6,7 +6,7 @@ export default function Experience() {
     return (
         <div id="experience" className="w-full flex flex-col">
             <div id="experience-section" className="w-full flex flex-col items-center text-center justify-center gap-y-10">
-                <div id="header-art-wrapper" className="flex flex-row items-center w-full max-w-[700px]">
+                <div id="experience-art-wrapper" className="flex flex-row items-center w-full max-w-[700px]">
                     <motion.span
                         // initial={{ x: 40, opacity: 0 }}
                         // whileInView={{ x: 0, opacity: 1 }}
@@ -16,8 +16,8 @@ export default function Experience() {
                     <LuBriefcaseBusiness className="absolute right-4 w-32 h-32 lg:w-82 lg:h-82 lg:right-[10%] opacity-20 z-5" />
                 </div>
                 <div id="resume-wrapper" className="w-full text-lg h-auto flex flex-col gap-y-5 max-w-[700px]">
-                    <div id="resume-item" className="w-full border border-white">
-                        <div id="resume-item-header" className="w-full flex p-[5px] text-left flex-col">
+                    <div id="resume--list" className="w-full border border-white">
+                        <div className="w-full flex p-[5px] text-left flex-col">
                             <span className="font-semibold">
                                 Software Development Intern
                             </span>
@@ -27,7 +27,7 @@ export default function Experience() {
                             <span className="italic">
                                 June 2025 - Present
                             </span>
-                            <div id="resume-item-list" className="w-full">
+                            <div className="w-full">
                                 <ul className="list-disc list-inside">
                                     <li>
                                         Translated Figma design prototypes into responsive, production-ready code using modern front-end technologies.
@@ -42,8 +42,8 @@ export default function Experience() {
                             </div>
                         </div>
                     </div>
-                    <div id="resume-item" className="w-full border border-white">
-                        <div id="resume-item-header" className="w-full flex p-[5px] text-left flex-col">
+                    <div className="w-full border border-white">
+                        <div className="w-full flex p-[5px] text-left flex-col">
                             <span className="font-semibold">
                                 Software Developer @ Freq
                             </span>
@@ -53,7 +53,7 @@ export default function Experience() {
                             <span className="italic">
                                 Spring 2025
                             </span>
-                            <div id="resume-item-list" className="w-full">
+                            <div className="w-full">
                                 <ul className="list-disc list-inside">
                                     <li>
                                         Contributed to the development of Freq.Social, a music-sharing social media platform, as part of UMass Amherst’s Initiative for Digital Public Infrastructure.
@@ -71,8 +71,8 @@ export default function Experience() {
                             </div>
                         </div>
                     </div>
-                    <div id="resume-item" className="w-full border border-white">
-                        <div id="resume-item-header" className="w-full flex p-[5px] text-left flex-col">
+                    <div className="w-full border border-white">
+                        <div className="w-full flex p-[5px] text-left flex-col">
                             <span className="font-semibold">
                                 IT Help Desk Intern
                             </span>
@@ -82,7 +82,7 @@ export default function Experience() {
                             <span className="italic">
                                 Summer 2024
                             </span>
-                            <div id="resume-item-list" className="w-full">
+                            <div className="w-full">
                                 <ul className="list-disc list-inside">
                                     <li>
                                         Provided technical support at the IT Help Desk for a life sciences consulting firm, resolving issues and ensuring smooth day-to-day operations.

@@ -6,7 +6,7 @@ export default function About() {
     return (
         <div id="about" className="w-full flex flex-col">
             <div id="about-section" className="w-full flex flex-col items-center text-center justify-center gap-y-10">
-                <div id="header-art-wrapper" className="flex flex-row items-center w-full max-w-[700px]">
+                <div id="about-art-wrapper" className="flex flex-row items-center w-full max-w-[700px]">
                     <span className="text-green-500 text-5xl font-semibold text-left z-10">Meet Thomas:</span>
                     < RiUser3Line className="absolute right-4 w-32 h-32 lg:w-82 lg:h-82 lg:right-[10%] opacity-20 z-5" />
                 </div>

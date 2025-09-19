@@ -7,9 +7,9 @@ export default function Home() {
     return (
 
         <div id="home-wrapper" className="w-full  flex flex-col mb-24">
-            <div id="heading-section" className="w-full flex flex-col items-center text-center justify-center gap-y-10">
+            <div id="home-section" className="w-full flex flex-col items-center text-center justify-center gap-y-10">
 
-                <div id="header-art-wrapper" className="flex flex-col items-center w-full">
+                <div id="home-art-wrapper" className="flex flex-col items-center w-full">
                     <motion.div
                         className="ml-48"
                         initial={{
