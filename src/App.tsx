@@ -5,7 +5,6 @@ import Home from "./sections/Home"
 import Interested from "./sections/Interested"
 import Nav from "./sections/Nav"
 import Skillset from "./sections/Skillset"
-import Testimonials from "./sections/Testimonials"
 import Themes from "./sections/Themes"
 
 function App() {
@@ -20,7 +19,6 @@ function App() {
           <Skillset />
           <Experience />
           <Themes />
-          {/* <Testimonials /> */}
           <Interested />
           <Contact />
         </div>
