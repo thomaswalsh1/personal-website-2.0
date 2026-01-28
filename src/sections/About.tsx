@@ -1,5 +1,4 @@
 import { RiUser3Line } from "react-icons/ri";
-import { MdOutlineFormatQuote } from "react-icons/md";
 import { motion } from "motion/react";
 
 export default function About() {
@@ -47,22 +46,7 @@ export default function About() {
           community projects and events, like hackathons such as <b>HackUMass</b> or labs
           such as the <b>Initiative for Digital Public Infrastructure.</b>
         </motion.span>
-
-        {/* <motion.span
-          initial={{ x: 40, opacity: 0 }}
-          whileInView={{ x: 0, opacity: 1 }}
-          transition={{ duration: 0.8, ease: "easeOut" }}
-          viewport={{ once: true, amount: 0.2 }}
-          className="text-xl md:text-2xl md:text-left max-w-[700px]"
-        >
-          Thomas' drive for developing and building stems from fostering a sense
-          of <b>community</b> among developers, architects, executives, and
-          clients.
-        </motion.span> */}
       </div>
-      {/* <div id="image-wrapper">
-                            <img src={MyPicture} />
-                        </div> */}
     </div>
   );
 }

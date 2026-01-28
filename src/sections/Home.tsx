@@ -1,7 +1,5 @@
 import { motion } from "motion/react";
-// import MyPicture from "../assets/me.jpg"
 import { LuMessageCircleQuestion } from "react-icons/lu";
-// import { tsParticles } from "@tsparticles/engine";
 
 export default function Home() {
   return (
@@ -42,21 +40,7 @@ export default function Home() {
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
             <h1 className="text-green-500 text-5xl md:text-7xl font-semibold text-left z-10">
-              Looking for a{" "}
-              {/* <motion.span
-                initial={{ backgroundPosition: "200% 50%" }}
-                animate={{ backgroundPosition: "0% 50%" }}
-                transition={{
-                  duration: 1.5,
-                  ease: "easeInOut",
-                  repeat: Infinity,
-                }}
-                className="bg-gradient-to-r from-green-500 via-white to-green-500 
-             bg-[length:200%_100%] bg-clip-text text-transparent italic
-             "
-              >
-                Experienced
-              </motion.span>{" "} */}
+              Looking for a
               Developer?
             </h1>
           </motion.div>
@@ -72,9 +56,6 @@ export default function Home() {
           supporting and developing for businesses and communities.
         </motion.h2>
       </div>
-      {/* <div id="image-wrapper">
-                <img src={MyPicture} />
-            </div> */}
     </div>
   );
 }
