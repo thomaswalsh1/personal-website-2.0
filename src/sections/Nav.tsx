@@ -36,7 +36,7 @@ export default function Nav() {
                     <a href="#about" className="hover:text-green-500">About</a>
                     <a href="#skills" className="hover:text-green-500">Skills</a>
                     <a href="#experience" className="hover:text-green-500">Experience</a>
-                    <a href="#mission" className="hover:text-green-500">Mission & Values</a>
+                    <a href="#projects" className="hover:text-green-500">Projects</a>
                     <a href="#contact" className="hover:text-green-500">Contact</a>
                 </div>
 

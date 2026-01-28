@@ -1,7 +1,6 @@
 import { GoDatabase } from "react-icons/go";
 import { IoBuildOutline, IoSettingsOutline } from "react-icons/io5";
 import { IoStorefrontOutline } from "react-icons/io5";
-// import { TbSitemap } from "react-icons/tb";
 import { CiCloudOn } from "react-icons/ci";
 import { motion } from "motion/react";
 

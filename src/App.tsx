@@ -5,7 +5,7 @@ import Home from "./sections/Home"
 import Interested from "./sections/Interested"
 import Nav from "./sections/Nav"
 import Skillset from "./sections/Skillset"
-import Themes from "./sections/Themes"
+import Projects from "./sections/Projects"
 
 function App() {
 
@@ -18,7 +18,7 @@ function App() {
           <About />
           <Skillset />
           <Experience />
-          <Themes />
+          <Projects />
           <Interested />
           <Contact />
         </div>
