@@ -19,13 +19,31 @@ export default function Experience() {
                     <div id="resume--list" className="w-full border border-white">
                         <div className="w-full flex p-[5px] text-left flex-col">
                             <span className="font-semibold">
+                                Spring IT intern
+                            </span>
+                            <span>
+                                HP Hood LLC
+                            </span>
+                            <span className="italic">
+                                Spring 2026
+                            </span>
+                            <div className="w-full">
+                                <ul className="list-disc list-inside">
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="resume--list" className="w-full border border-white">
+                        <div className="w-full flex p-[5px] text-left flex-col">
+                            <span className="font-semibold">
                                 Software Development Intern
                             </span>
                             <span>
-                                Vierra Staffing
+                                Vierra Digital LLC
                             </span>
                             <span className="italic">
-                                June 2025 - Present
+                                Summer 2025
                             </span>
                             <div className="w-full">
                                 <ul className="list-disc list-inside">
