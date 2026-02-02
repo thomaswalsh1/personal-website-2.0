@@ -42,12 +42,10 @@ export default function Skillset() {
               Backend Brilliance
             </span>
             <span className="text-xl">
-              With strong experience in database systems like{" "}
-              <b>MongoDB, Supabase, Prisma, and Postgres, </b>Thomas knows what
-              makes a speedy backend so special. With routing systems like{" "}
-              <b>Next.js, Express.js, and Sveltekit, </b> Thomas Walsh has
-              experience building easy-to-use backend APIs to be easily
-              implemented in the frontend.
+              Thomas has experience using database systems such as{" "}
+              <b>MongoDB, Supabase, Prisma, and Postgres.</b> Additionally, he
+              has built various projects with the use of tools like{" "}
+              <b>Next.js, Express.js, and Sveltekit. </b>
             </span>
           </motion.div>
           <motion.div
@@ -62,12 +60,9 @@ export default function Skillset() {
               Fluid Frontend
             </span>
             <span className="text-xl">
-              No stranger to frontend development, Thomas knows how to implement
-              any Figma design with speed and efficiency without clogging the
-              browser. Using tools such as{" "}
-              <b>Vite, React, Sveltekit, Tailwind, </b> and a plethora of
-              component libraries, Thomas Walsh can bring your HTML and CSS to a
-              whole new level.
+              From Figma designs to code, Thomas has a lot of experience
+              developing accessible front-ends using tools and libraries like{" "}
+              <b>Vite, React, Sveltekit, and Tailwind.</b>
             </span>
           </motion.div>
           <motion.div
@@ -82,11 +77,8 @@ export default function Skillset() {
               Competitive Cloud
             </span>
             <span className="text-xl">
-              Thomas breaks through the complexity barrier of cloud systems for
-              hosting and optimization. With experience in{" "}
-              <b>Google Cloud, AWS, Cloudflare, and Vercel,</b> these services
-              and their menus can be navigated and troubleshooted with ease and
-              efficiency.
+               Some of the tools Thomas has used to host and develop projects include{" "}
+              <b>Google Cloud, AWS, Docker, Cloudflare, and Vercel.</b>
             </span>
           </motion.div>
           <motion.div
@@ -101,11 +93,12 @@ export default function Skillset() {
               IT & Support
             </span>
             <span className="text-xl">
-              Thomas' extensive experience in the fields of IT and support
+              Thomas' experience in the fields of IT and support
               includes the use of tools such as{" "}
               <b>
                 Windows Server, Active Directory, Microsoft Teams, Azure,
-                Computer Imaging Systems, Architecture, Linux Servers, Powershell, Bash, and more.
+                Computer Imaging Systems, Architecture, Linux Servers,
+                Powershell, Bash, and more.
               </b>
             </span>
           </motion.div>
