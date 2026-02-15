@@ -33,6 +33,7 @@ export default function Nav() {
 
                 {/* Desktop Links */}
                 <div className="hidden md:flex space-x-6">
+                    <a href="https://terminal.tmwalsh.com" className="hover:text-green-500">Terminal</a>
                     <a href="#about" className="hover:text-green-500">About</a>
                     <a href="#skills" className="hover:text-green-500">Skills</a>
                     <a href="#experience" className="hover:text-green-500">Experience</a>
@@ -52,6 +53,7 @@ export default function Nav() {
             {/* Mobile Dropdown */}
             {menuOpen && (
                 <div className="md:hidden bg-black shadow-lg flex flex-col space-y-4 p-4">
+                    <a href="terminal.tmwalsh.com" className="hover:text-green-500" onClick={() => setMenuOpen(false)}>Terminal</a>
                     <a href="#about" className="hover:text-green-500" onClick={() => setMenuOpen(false)}>About</a>
                     <a href="#skills" className="hover:text-green-500" onClick={() => setMenuOpen(false)}>Skills</a>
                     <a href="#experience" className="hover:text-green-500" onClick={() => setMenuOpen(false)}>Experience</a>
