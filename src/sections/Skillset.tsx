@@ -36,14 +36,14 @@ export default function Skillset() {
         </div>
         <div
           id="skill-list"
-          className="flex flex-col w-full items-center gap-y-4 max-w-[700px]"
+          className="flex flex-col w-full items-center gap-y-4 max-w-[700px] text-left"
         >
           <motion.div
             initial={{ x: 40, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
             viewport={{ once: true, amount: 0.2 }}
-            className="flex flex-col items-center"
+            className="flex flex-col items-left"
           >
             <GoCodeSquare className="w-32 h-32 opacity-32" />
             <span className="text-green-500 text-3xl font-semibold">
@@ -68,7 +68,7 @@ export default function Skillset() {
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
             viewport={{ once: true, amount: 0.2 }}
-            className="flex flex-col items-center"
+            className="flex flex-col items-left"
           >
             <GoServer className="w-32 h-32 opacity-32" />
             <span className="text-green-500 text-3xl font-semibold">
@@ -97,7 +97,7 @@ export default function Skillset() {
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
             viewport={{ once: true, amount: 0.2 }}
-            className="flex flex-col items-center"
+            className="flex flex-col items-left"
           >
             <div className="flex flex-row">
               <FaUbuntu className="w-32 h-32 opacity-32" />
@@ -110,7 +110,7 @@ export default function Skillset() {
             </span>
             <span className="text-xl">
               Known as one of the most difficult certifications from CompTIA,
-              <b>Linux+ Administration</b> shows proficiency in various areas of
+              <b> Linux+ Administration</b> shows proficiency in various areas of
               Linux engineering and technology. (Find out more about the CompTIA
               Linux+ certification{" "}
               <a
@@ -132,7 +132,7 @@ export default function Skillset() {
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
             viewport={{ once: true, amount: 0.2 }}
-            className="flex flex-col items-center"
+            className="flex flex-col items-left"
           >
             <IoSettingsOutline className="w-32 h-32 opacity-32" />
             <span className="text-green-500 text-3xl font-semibold">
