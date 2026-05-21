@@ -1,8 +1,16 @@
-import { GoDatabase } from "react-icons/go";
+import {
+  GoDatabase,
+  GoCodeSquare,
+  GoServer,
+  GoTerminal,
+  GoCloud,
+} from "react-icons/go";
 import { IoBuildOutline, IoSettingsOutline } from "react-icons/io5";
 import { IoStorefrontOutline } from "react-icons/io5";
+import { FaFedora, FaLinux, FaRedhat, FaUbuntu } from "react-icons/fa";
 import { CiCloudOn } from "react-icons/ci";
 import { motion } from "motion/react";
+import { FaDebian } from "react-icons/fa6";
 
 export default function Skillset() {
   return (
@@ -37,15 +45,22 @@ export default function Skillset() {
             viewport={{ once: true, amount: 0.2 }}
             className="flex flex-col items-center"
           >
-            <GoDatabase className="w-32 h-32 opacity-32" />
+            <GoCodeSquare className="w-32 h-32 opacity-32" />
             <span className="text-green-500 text-3xl font-semibold">
-              Backend Brilliance
+              Supercharging Web Apps
             </span>
             <span className="text-xl">
-              Thomas has experience using database systems such as{" "}
-              <b>MongoDB, Supabase, Prisma, and Postgres.</b> Additionally, he
-              has built various projects with the use of tools like{" "}
-              <b>Next.js, Express.js, and Sveltekit. </b>
+              In 2026, it is necessary to have a functioning, esthetic, and
+              reliable way to access your resources from the comfort of a
+              browser. Thomas has the skills to make this happen. Thomas uses
+              database technologies including{" "}
+              <b>Supabase, Prisma, MongoDB, MySQL, and PostgreSQL</b> to
+              securely and efficiently store data. Connecting these tools to
+              form an API is made simple using libraries and frameworks like{" "}
+              <b>Node, Express, Next, and Svelte.</b> Finally, Thomas brings
+              your data to the user space using{" "}
+              <b>React, Sveltekit, and reusable component libraries</b> to
+              develop with simplicity and functionality.
             </span>
           </motion.div>
           <motion.div
@@ -55,14 +70,26 @@ export default function Skillset() {
             viewport={{ once: true, amount: 0.2 }}
             className="flex flex-col items-center"
           >
-            <IoStorefrontOutline className="w-32 h-32 opacity-32" />
+            <GoServer className="w-32 h-32 opacity-32" />
             <span className="text-green-500 text-3xl font-semibold">
-              Fluid Frontend
+              Server Management and Administration
             </span>
             <span className="text-xl">
-              From Figma designs to code, Thomas has a lot of experience
-              developing accessible front-ends using tools and libraries like{" "}
-              <b>Vite, React, Sveltekit, and Tailwind.</b>
+              Understanding the complexities and tools used for managing,
+              provisioning, accessing, and protecting server technologies is an
+              area that is often overlooked by developers and technicians alike.
+              Thomas has the background for setting up{" "}
+              <b>physical and virtual networks in self-hosted environments</b>{" "}
+              using both{" "}
+              <b>Bare-Metal (Qemu and KVM) and OS-Level (VirtualBox, UTM)</b>{" "}
+              virtual machines to create secure, isolated environments for
+              various business needs. Additionally, Thomas amplifies security
+              using{" "}
+              <b>
+                firewalls (UFW and Firewalld), reverse proxies through NGINX,
+                containers through Docker, and VPN technologies (Tailscale,
+                ZScaler, Mullvad).
+              </b>
             </span>
           </motion.div>
           <motion.div
@@ -72,13 +99,32 @@ export default function Skillset() {
             viewport={{ once: true, amount: 0.2 }}
             className="flex flex-col items-center"
           >
-            <CiCloudOn className="w-32 h-32 opacity-32" />
+            <div className="flex flex-row">
+              <FaUbuntu className="w-32 h-32 opacity-32" />
+              <FaDebian className="w-32 h-32 opacity-32" />
+              <FaFedora className="w-32 h-32 opacity-32" />
+              <FaRedhat className="w-32 h-32 opacity-32" />
+            </div>
             <span className="text-green-500 text-3xl font-semibold">
-              Competitive Cloud
+              Linux Literacy
             </span>
             <span className="text-xl">
-               Some of the tools Thomas has used to host and develop projects include{" "}
-              <b>Google Cloud, AWS, Docker, Cloudflare, and Vercel.</b>
+              Known as one of the most difficult certifications from CompTIA,
+              <b>Linux+ Administration</b> shows proficiency in various areas of
+              Linux engineering and technology. (Find out more about the CompTIA
+              Linux+ certification{" "}
+              <a
+                className="underline"
+                href="https://www.comptia.org/en-us/certifications/linux/"
+              >
+                here.
+              </a>
+              ) Passing his exam in April 2026, Thomas has the credentials for{" "}
+              <b>Linux and cloud systems administration. </b>
+              From testing, hosting, and developing on a variety of both
+              <b> Debian-based and Redhat-based distributions,</b> Thomas has
+              the necessary knowledge when it comes to working with powerful and
+              complex systems.
             </span>
           </motion.div>
           <motion.div
@@ -93,13 +139,15 @@ export default function Skillset() {
               IT & Support
             </span>
             <span className="text-xl">
-              Thomas' experience in the fields of IT and support
-              includes the use of tools such as{" "}
-              <b>
-                Windows Server, Active Directory, Microsoft Teams, Azure,
-                Computer Imaging Systems, Architecture, Linux Servers,
-                Powershell, Bash, and more.
-              </b>
+              With lots of professional experience in <b>desktop support and
+              enterprise systems,</b> Thomas has the communication skills and
+              technical ability for supporting <b>critical business operations when
+              they are needed the most.</b> Working with both remote and in-person
+              users, Thomas has the knowledge needed to navigate, support, and
+              manage the <b>Windows and Microsoft Office 365</b> ecosystem through
+              computer/device imaging and management in <b>OSDeployer,</b> account and
+              cloud administration in <b>Active Directory and Azure,</b> business
+              application troubleshooting in <b>UIPath and SAP,</b> and ticket routing.
             </span>
           </motion.div>
         </div>
