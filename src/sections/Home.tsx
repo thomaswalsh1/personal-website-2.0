@@ -1,7 +1,18 @@
-import { motion } from "motion/react";
+import { AnimatePresence, motion } from "motion/react";
+import { useEffect, useState } from "react";
 import { LuMessageCircleQuestion } from "react-icons/lu";
 
 export default function Home() {
+  const roles: string[] = ["Developer?", "SysAdmin?", "Technician?", "Linux Engineer?"];
+  const [role, setRole] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setRole((prev) => (prev + 1) % roles.length);
+    }, 2500);
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <div id="home-wrapper" className="w-full  flex flex-col mb-24">
       <div
@@ -40,8 +51,19 @@ export default function Home() {
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
             <h1 className="text-green-500 text-5xl md:text-7xl font-semibold text-left z-10">
-              Looking for a
-              Developer?
+              Looking for a{" "}
+              <AnimatePresence mode="wait">
+                <motion.span
+                  key={role}
+                  initial={{ opacity: 0, y: 12 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -12 }}
+                  transition={{ duration: 0.3, ease: "easeInOut" }}
+                  className="inline-block"
+                >
+                  {roles[role]}
+                </motion.span>
+              </AnimatePresence>
             </h1>
           </motion.div>
         </div>
@@ -51,9 +73,9 @@ export default function Home() {
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.5 }}
           className="text-xl md:text-2xl text-center md:text-left max-w-[700px]"
         >
-          With knowledge in both <b>back-end</b> and{" "}
-          <b>front-end</b> development, Thomas Walsh has extensive experience
-          supporting and developing for businesses and communities.
+          With knowledge in both <b>back-end</b> and <b>front-end</b>{" "}
+          development, Thomas Walsh has extensive experience supporting and
+          developing for businesses and communities.
         </motion.h2>
       </div>
     </div>
