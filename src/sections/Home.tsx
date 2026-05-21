@@ -73,8 +73,8 @@ export default function Home() {
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.5 }}
           className="text-xl md:text-2xl text-center md:text-left max-w-[700px]"
         >
-          With knowledge in both <b>back-end</b> and <b>front-end</b>{" "}
-          development, Thomas Walsh has extensive experience supporting and
+          With knowledge fields like <b>Web Development, Server Management, and Linux Engineering,</b>{" "}
+          Thomas Walsh has extensive experience supporting and
           developing for businesses and communities.
         </motion.h2>
       </div>

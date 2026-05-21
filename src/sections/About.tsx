@@ -42,9 +42,8 @@ export default function About() {
         >
           Outside of the classroom, Thomas has taken various professional
           courses, earning a certificate for <b>IBM Full Stack Development</b>{" "}
-          in the Fall of 2024. Additionally, Thomas can be found participating in
-          community projects and events, like hackathons such as <b>HackUMass</b> or labs
-          such as the <b>Initiative for Digital Public Infrastructure.</b>
+          in the Fall of 2024 and a <b>CompTIA Linux+ Administrator certification</b> in April 2026. Additionally, Thomas can be found participating in
+          community projects and events, like <b>HackUMass</b> or the <b>Initiative for Digital Public Infrastructure.</b>
         </motion.span>
       </div>
     </div>
