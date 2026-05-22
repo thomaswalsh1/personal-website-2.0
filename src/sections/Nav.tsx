@@ -58,7 +58,7 @@ export default function Nav() {
                     <a href="#about" className="hover:text-green-500" onClick={() => setMenuOpen(false)}>About</a>
                     <a href="#skills" className="hover:text-green-500" onClick={() => setMenuOpen(false)}>Skills</a>
                     <a href="#experience" className="hover:text-green-500" onClick={() => setMenuOpen(false)}>Experience</a>
-                    <a href="#mission" className="hover:text-green-500" onClick={() => setMenuOpen(false)}>Mission & Values</a>
+                    <a href="#education" className="hover:text-green-500">Education</a>
                     <a href="#reach" className="hover:text-green-500" onClick={() => setMenuOpen(false)}>Reach Out</a>
                     <a href="#contact" className="hover:text-green-500" onClick={() => setMenuOpen(false)}>Contact</a>
                 </div>
