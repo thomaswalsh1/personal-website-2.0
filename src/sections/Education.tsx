@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
 import { LuBriefcaseBusiness, LuGraduationCap } from "react-icons/lu";
+import LineConnector from "../components/ LineConnector";
 
 export default function Education() {
   return (
@@ -25,7 +26,7 @@ export default function Education() {
         </div>
         <div
           id="resume-wrapper"
-          className="w-full text-lg h-auto flex flex-col gap-y-5 max-w-[700px]"
+          className="w-full text-lg h-auto flex flex-col max-w-[700px]"
         >
           <div id="resume--list" className="w-full border border-white">
             <div className="w-full flex p-[5px] text-left flex-col">
@@ -41,6 +42,7 @@ export default function Education() {
               </div>
             </div>
           </div>
+          <LineConnector />
           <div className="w-full border border-white">
             <div className="w-full flex p-[5px] text-left flex-col">
               <span className="font-semibold">St. John's Preparatory School</span>

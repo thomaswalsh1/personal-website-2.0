@@ -9,6 +9,7 @@ import ibmCapstonePic from "../assets/imagescropped/ibm.png"
 import ventPic from "../assets/imagescropped/Vent.png"
 import superAIPic from "../assets/imagescropped/superai.jpg"
 import termitePic from "../assets/imagescropped/termite.jpeg"
+import LineConnector from "../components/ LineConnector";
 
 const termiteDesc = "Termite is a customizable React component that enables developers to seamlessly integrate terminal interfaces and log viewers into their applications. It provides flexible styling through custom CSS classes, allowing complete control over the terminal's appearance to match any design system. Beyond visual customization, Termite supports interactive terminal workflows by allowing developers to define custom input and output handlers, making it ideal for displaying log streams, connecting to remote terminals, or building command-driven interfaces with full control over command processing and output rendering. I plan to integrate Termite into my own projects, such as Linux Learner or my personal website, to maintain modularity and provide a layer of abstraction."
 const termiteGit = ""
@@ -49,12 +50,16 @@ export default function Projects() {
         </div>
         <div
           id="themes-list"
-          className="flex flex-col w-full gap-y-5 px-10"
+          className="flex flex-col w-full px-10"
         >
           <ProjectComponent title="Termite" description={termiteDesc} image={termitePic} link={termiteGit}/>
+          <LineConnector />
           <ProjectComponent title="Linux Learner" description={linuxLearnerDesc} link={"https://tmwalsh.com"} image={linuxLearnerPic} />
+          <LineConnector />
           <ProjectComponent title="IBM Full Stack Certification Capstone" description={ibmCapstoneDesc} link={"https://tmwalsh.com"} image={ibmCapstonePic} />
+          <LineConnector />
           <ProjectComponent title="Vent" description={ventDesc} link={"https://tmwalsh.com"} image={ventPic} />
+          <LineConnector />
           <ProjectComponent title="SuperAI" description={superAIDesc} link={"https://tmwalsh.com"} image={superAIPic} />
         </div>
       </div>

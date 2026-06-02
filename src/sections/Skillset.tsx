@@ -3,6 +3,7 @@ import { motion } from "motion/react";
 import SkillComponent from "../components/SkillComponent";
 import { GoCodeSquare, GoServer } from "react-icons/go";
 import { FaLinux } from "react-icons/fa";
+import LineConnector from "../components/ LineConnector";
 
 const webAppsDesc = (
   <>
@@ -91,11 +92,14 @@ export default function Skillset() {
         </div>
         <div
           id="skill-list"
-          className="flex flex-col w-full gap-y-5 px-10"
+          className="flex flex-col w-full px-10"
         >
           <SkillComponent title="Supercharging Web Apps" description={webAppsDesc} icon={GoCodeSquare} />
+          <LineConnector />
           <SkillComponent title="Server Management and Administration" description={serverDesc} icon={GoServer} />
+          <LineConnector />
           <SkillComponent title="Linux Literacy" description={linuxDesc} icon={FaLinux} />
+          <LineConnector />
           <SkillComponent title="IT & Support" description={itSupportDesc} icon={IoSettingsOutline} />
         </div>
       </div>
