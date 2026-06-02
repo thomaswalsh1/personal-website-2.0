@@ -49,88 +49,13 @@ export default function Projects() {
         </div>
         <div
           id="themes-list"
-          className="flex flex-col w-full gap-y-5"
+          className="flex flex-col w-full gap-y-5 px-10"
         >
           <ProjectComponent title="Termite" description={termiteDesc} image={termitePic} link={termiteGit}/>
           <ProjectComponent title="Linux Learner" description={linuxLearnerDesc} link={"https://tmwalsh.com"} image={linuxLearnerPic} />
           <ProjectComponent title="IBM Full Stack Certification Capstone" description={ibmCapstoneDesc} link={"https://tmwalsh.com"} image={ibmCapstonePic} />
           <ProjectComponent title="Vent" description={ventDesc} link={"https://tmwalsh.com"} image={ventPic} />
           <ProjectComponent title="SuperAI" description={superAIDesc} link={"https://tmwalsh.com"} image={superAIPic} />
-          {/* <motion.div
-            initial={{ x: 40, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
-            viewport={{ once: true, amount: 0.2 }}
-            className="flex flex-col items-center"
-          >
-            <BsUbuntu className="w-32 h-32 opacity-32" />
-            <span className="text-green-500 text-3xl font-semibold">
-              LinuxLearner
-            </span>
-            <span className="text-xl">
-              LinuxLearner is an open-source project I have been working on that
-              allows for the seamless practice and memorization of the commands
-              featured in the CompTIA Linux+ V8 exam. Built in primarily in C,
-              LinuxLearner uses a terminal-style GUI provided by the ncurses
-              library to run the user through different sets of exercises in
-              their own shell.
-            </span>
-          </motion.div>
-          <motion.div
-            initial={{ x: 40, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
-            viewport={{ once: true, amount: 0.2 }}
-            className="flex flex-col items-center"
-          >
-            <FaCarSide className="w-32 h-32 opacity-32" />
-            <span className="text-green-500 text-3xl font-semibold">
-              IBM Full Stack Developer Capstone
-            </span>
-            <span className="text-xl">
-              This project was the final capstone project for the IBM Full Stack
-              Developer Certification. It is a car dealership website created
-              using React, Django, MongoDB, Microservices, and other tools. The
-              website also includes AI integration to provide analytics on the
-              kinds of reviews left on certain car models.
-            </span>
-          </motion.div>
-          <motion.div
-            initial={{ x: 40, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
-            viewport={{ once: true, amount: 0.2 }}
-            className="flex flex-col items-center"
-          >
-            <IoIosJournal className="w-32 h-32 opacity-32" />
-            <span className="text-green-500 text-3xl font-semibold">Vent</span>
-            <span className="text-xl">
-              Although no longer actively supported, Vent is a journaling
-              application and social media app created with Express.js, Vite,
-              React, Tailwind, and MongoDB. Designed to foster long-form
-              information sharing, users can create and share journal entries
-              with other users using a rich text editor.
-            </span>
-          </motion.div>
-          <motion.div
-            initial={{ x: 40, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
-            viewport={{ once: true, amount: 0.2 }}
-            className="flex flex-col items-center"
-          >
-            <AiOutlineClockCircle className="w-32 h-32 opacity-32" />
-            <span className="text-green-500 text-3xl font-semibold">
-              SuperAI.tech
-            </span>
-            <span className="text-xl">
-              A project created as part of HackUMass XII, SuperAI is an app that
-              collects responses from four different LLMs judging the relevance,
-              accuracy, coherence, and completeness of the responses using
-              SvelteKit, Llama, Mixtral, Gemma, Wolfram, Tailwind, and
-              Cloudflare.
-            </span>
-          </motion.div> */}
         </div>
       </div>
     </div>
