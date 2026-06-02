@@ -16,7 +16,7 @@ export default function ProjectComponent({
   return (
     <div id="project-component-container" className="w-full border border-white flex flex-col md:flex-row">
       <div id="project-component-left-side" className="flex flex-1 w-full h-full">
-        <img className="w-full h-full object-fit" src={image}/>
+        <img className="w-full h-full object-fit" src={image} alt={title}/>
       </div>
       <div id="project-component-right-side" className="flex flex-1 flex-col p-2 text-left">
         <div>
