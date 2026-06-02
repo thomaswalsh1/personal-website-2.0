@@ -70,7 +70,7 @@ export default function Projects() {
         </div>
         <div
           id="themes-list"
-          className="flex flex-col w-full px-10"
+          className="flex flex-col w-full md:px-10"
         >
           <ProjectComponent title="Termite" description={termiteDesc} image={termitePic} link={termiteGit}/>
           <LineConnector />

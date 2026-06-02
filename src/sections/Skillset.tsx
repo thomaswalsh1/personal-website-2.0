@@ -1,4 +1,5 @@
 import { IoBuildOutline, IoSettingsOutline } from "react-icons/io5";
+import { RiRobot2Line } from "react-icons/ri";
 import { motion } from "motion/react";
 import SkillComponent from "../components/SkillComponent";
 import { GoCodeSquare, GoServer } from "react-icons/go";
@@ -55,6 +56,19 @@ const linuxDesc = (
   </>
 );
 
+const aiDesc = (
+  <>
+    Integrating AI systems into business and development workflows is key to
+    achieving meaningful goals efficiently. Using service providers such as{" "}
+    <b>Claude Code and OpenAI,</b> Thomas understands how to manage AI agents
+    securely by <b>sanitizing confidential data</b> and identifying security
+    risks when deploying programming agents and chatbots. Thomas also has the
+    skills to recognize which tasks are best suited for{" "}
+    <b>agent automation,</b> minimizing unnecessary iteration and maximizing
+    productivity.
+  </>
+);
+
 const itSupportDesc = (
   <>
     With lots of professional experience in{" "}
@@ -92,7 +106,7 @@ export default function Skillset() {
         </div>
         <div
           id="skill-list"
-          className="flex flex-col w-full px-10"
+          className="flex flex-col w-full md:px-10"
         >
           <SkillComponent title="Supercharging Web Apps" description={webAppsDesc} icon={GoCodeSquare} />
           <LineConnector />
@@ -101,6 +115,8 @@ export default function Skillset() {
           <SkillComponent title="Linux Literacy" description={linuxDesc} icon={FaLinux} />
           <LineConnector />
           <SkillComponent title="IT & Support" description={itSupportDesc} icon={IoSettingsOutline} />
+          <LineConnector />
+          <SkillComponent title="AI Integration & Agent Management" description={aiDesc} icon={RiRobot2Line} />
         </div>
       </div>
     </div>
