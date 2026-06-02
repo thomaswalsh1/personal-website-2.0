@@ -9,7 +9,7 @@ import ibmCapstonePic from "../assets/imagescropped/ibm.png"
 import ventPic from "../assets/imagescropped/Vent.png"
 import superAIPic from "../assets/imagescropped/superai.jpg"
 import termitePic from "../assets/imagescropped/termite.jpeg"
-import LineConnector from "../components/ LineConnector";
+import LineConnector from "../components/LineConnector";
 
 const termiteDesc = (
   <>

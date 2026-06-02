@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 import SkillComponent from "../components/SkillComponent";
 import { GoCodeSquare, GoServer } from "react-icons/go";
 import { FaLinux } from "react-icons/fa";
-import LineConnector from "../components/ LineConnector";
+import LineConnector from "../components/LineConnector";
 
 const webAppsDesc = (
   <>

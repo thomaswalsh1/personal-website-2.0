@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 import { LuBriefcaseBusiness, LuGraduationCap } from "react-icons/lu";
-import LineConnector from "../components/ LineConnector";
+import LineConnector from "../components/LineConnector";
 
 export default function Education() {
   return (
