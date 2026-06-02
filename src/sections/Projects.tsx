@@ -1,8 +1,5 @@
-import { FaCarSide, FaRegHandshake } from "react-icons/fa";
-import { AiOutlineClockCircle } from "react-icons/ai";
+import { FaRegHandshake } from "react-icons/fa";
 import { motion } from "motion/react";
-import { BsUbuntu } from "react-icons/bs";
-import { IoIosJournal } from "react-icons/io";
 import ProjectComponent from "../components/ProjectComponent";
 import linuxLearnerPic from "../assets/imagescropped/linuxlearner.png";
 import ibmCapstonePic from "../assets/imagescropped/ibm.png"
