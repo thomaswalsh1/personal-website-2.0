@@ -6,6 +6,7 @@ import Interested from "./sections/Interested"
 import Nav from "./sections/Nav"
 import Skillset from "./sections/Skillset"
 import Projects from "./sections/Projects"
+import Education from "./sections/Education"
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
           <About />
           <Skillset />
           <Experience />
+          <Education />
           <Projects />
           <Interested />
           <Contact />

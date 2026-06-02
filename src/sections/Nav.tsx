@@ -4,6 +4,10 @@ import { Menu, X } from "lucide-react";
 export default function Nav() {
 
     const [menuOpen, setMenuOpen] = useState(false);
+
+    const scrollTo = (id: string) => {
+        document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+    };
     const [showNav, setShowNav] = useState(true);
     const [lastScrollY, setLastScrollY] = useState(0);
 
@@ -34,11 +38,12 @@ export default function Nav() {
                 {/* Desktop Links */}
                 <div className="hidden md:flex space-x-6">
                     <a href="https://terminal.tmwalsh.com" className="hover:text-green-500">Terminal</a>
-                    <a href="#about" className="hover:text-green-500">About</a>
-                    <a href="#skills" className="hover:text-green-500">Skills</a>
-                    <a href="#experience" className="hover:text-green-500">Experience</a>
-                    <a href="#projects" className="hover:text-green-500">Projects</a>
-                    <a href="#contact" className="hover:text-green-500">Contact</a>
+                    <button onClick={() => scrollTo("about")} className="hover:text-green-500">About</button>
+                    <button onClick={() => scrollTo("skills")} className="hover:text-green-500">Skills</button>
+                    <button onClick={() => scrollTo("experience")} className="hover:text-green-500">Experience</button>
+                    <button onClick={() => scrollTo("education")} className="hover:text-green-500">Education</button>
+                    <button onClick={() => scrollTo("projects")} className="hover:text-green-500">Projects</button>
+                    <button onClick={() => scrollTo("contact")} className="hover:text-green-500">Contact</button>
                 </div>
 
                 {/* Mobile Menu Button */}
@@ -53,13 +58,13 @@ export default function Nav() {
             {/* Mobile Dropdown */}
             {menuOpen && (
                 <div className="md:hidden bg-black shadow-lg flex flex-col space-y-4 p-4">
-                    <a href="terminal.tmwalsh.com" className="hover:text-green-500" onClick={() => setMenuOpen(false)}>Terminal</a>
-                    <a href="#about" className="hover:text-green-500" onClick={() => setMenuOpen(false)}>About</a>
-                    <a href="#skills" className="hover:text-green-500" onClick={() => setMenuOpen(false)}>Skills</a>
-                    <a href="#experience" className="hover:text-green-500" onClick={() => setMenuOpen(false)}>Experience</a>
-                    <a href="#mission" className="hover:text-green-500" onClick={() => setMenuOpen(false)}>Mission & Values</a>
-                    <a href="#reach" className="hover:text-green-500" onClick={() => setMenuOpen(false)}>Reach Out</a>
-                    <a href="#contact" className="hover:text-green-500" onClick={() => setMenuOpen(false)}>Contact</a>
+                    <a href="https://terminal.tmwalsh.com" className="hover:text-green-500" onClick={() => setMenuOpen(false)}>Terminal</a>
+                    <button onClick={() => { scrollTo("about"); setMenuOpen(false); }} className="hover:text-green-500 text-left">About</button>
+                    <button onClick={() => { scrollTo("skills"); setMenuOpen(false); }} className="hover:text-green-500 text-left">Skills</button>
+                    <button onClick={() => { scrollTo("experience"); setMenuOpen(false); }} className="hover:text-green-500 text-left">Experience</button>
+                    <button onClick={() => { scrollTo("education"); setMenuOpen(false); }} className="hover:text-green-500 text-left">Education</button>
+                    <button onClick={() => { scrollTo("projects"); setMenuOpen(false); }} className="hover:text-green-500 text-left">Projects</button>
+                    <button onClick={() => { scrollTo("contact"); setMenuOpen(false); }} className="hover:text-green-500 text-left">Contact</button>
                 </div>
             )}
         </nav>
