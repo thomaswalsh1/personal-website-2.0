@@ -26,7 +26,7 @@ export default function ProjectComponent({
             <span className="text-lg">{description}</span>
         </div>
         <div>
-            <a href={link}>
+            <a className="text-green-500 underline" href={link}>
                 Check it out here.
             </a>
         </div>
