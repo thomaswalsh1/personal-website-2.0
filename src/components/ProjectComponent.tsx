@@ -2,7 +2,7 @@ import React from "react";
 
 type projectProps = {
   title: string;
-  description: string;
+  description: React.ReactNode;
   link: string;
   image: string;
 };

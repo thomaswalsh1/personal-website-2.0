@@ -11,19 +11,39 @@ import superAIPic from "../assets/imagescropped/superai.jpg"
 import termitePic from "../assets/imagescropped/termite.jpeg"
 import LineConnector from "../components/ LineConnector";
 
-const termiteDesc = "Termite is a customizable React component that enables developers to seamlessly integrate terminal interfaces and log viewers into their applications. It provides flexible styling through custom CSS classes, allowing complete control over the terminal's appearance to match any design system. Beyond visual customization, Termite supports interactive terminal workflows by allowing developers to define custom input and output handlers, making it ideal for displaying log streams, connecting to remote terminals, or building command-driven interfaces with full control over command processing and output rendering. I plan to integrate Termite into my own projects, such as Linux Learner or my personal website, to maintain modularity and provide a layer of abstraction."
+const termiteDesc = (
+  <>
+    Termite is a customizable React component that enables developers to seamlessly integrate terminal interfaces and log viewers into their applications. It provides flexible styling through custom CSS classes, allowing complete control over the terminal's appearance to match any design system. Beyond visual customization, Termite supports interactive terminal workflows by allowing developers to define custom input and output handlers, making it ideal for displaying log streams, connecting to remote terminals, or building command-driven interfaces with full control over command processing and output rendering. I plan to integrate Termite into my own projects, such as Linux Learner or my personal website, to maintain modularity and provide a layer of abstraction.
+  </>
+);
 const termiteGit = ""
 
-const linuxLearnerDesc = "LinuxLearner is an open-source project I have been working on that allows for the seamless practice and memorization of the commands featured in the CompTIA Linux+ V8 exam. Built in primarily in C, LinuxLearner uses a terminal-style GUI provided by the ncurses library to run the user through different sets of exercises in their own shell.";
+const linuxLearnerDesc = (
+  <>
+    LinuxLearner is an open-source project I have been working on that allows for the seamless practice and memorization of the commands featured in the CompTIA Linux+ V8 exam. Built in primarily in C, LinuxLearner uses a terminal-style GUI provided by the ncurses library to run the user through different sets of exercises in their own shell.
+  </>
+);
 const linuxLearnerGit = ""
 
-const ibmCapstoneDesc = "This project was the final capstone project for the IBM Full Stack Developer Certification. It is a car dealership website created using React, Django, MongoDB, Microservices, and other tools. The website also includes AI integration to provide analytics on the kinds of reviews left on certain car models.";
+const ibmCapstoneDesc = (
+  <>
+    This project was the final capstone project for the IBM Full Stack Developer Certification. It is a car dealership website created using React, Django, MongoDB, Microservices, and other tools. The website also includes AI integration to provide analytics on the kinds of reviews left on certain car models.
+  </>
+);
 const ibmCapstoneGit = ""
 
-const ventDesc = "Although no longer actively supported, Vent is a journaling application and social media app created with Express.js, Vite, React, Tailwind, and MongoDB. Designed to foster long-form information sharing, users can create and share journal entries with other users using a rich text editor.";
+const ventDesc = (
+  <>
+    Although no longer actively supported, Vent is a journaling application and social media app created with Express.js, Vite, React, Tailwind, and MongoDB. Designed to foster long-form information sharing, users can create and share journal entries with other users using a rich text editor.
+  </>
+);
 const ventGit = ""
 
-const superAIDesc = "A project created as part of HackUMass XII, SuperAI is an app that collects responses from four different LLMs judging the relevance, accuracy, coherence, and completeness of the responses using SvelteKit, Llama, Mixtral, Gemma, Wolfram, Tailwind, and Cloudflare.";
+const superAIDesc = (
+  <>
+    A project created as part of HackUMass XII, SuperAI is an app that collects responses from four different LLMs judging the relevance, accuracy, coherence, and completeness of the responses using SvelteKit, Llama, Mixtral, Gemma, Wolfram, Tailwind, and Cloudflare.
+  </>
+);
 const superAIGit = ""
 
 export default function Projects() {
