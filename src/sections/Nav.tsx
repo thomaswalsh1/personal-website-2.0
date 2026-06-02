@@ -63,6 +63,7 @@ export default function Nav() {
                     <button onClick={() => { scrollTo("skills"); setMenuOpen(false); }} className="hover:text-green-500 text-left">Skills</button>
                     <button onClick={() => { scrollTo("experience"); setMenuOpen(false); }} className="hover:text-green-500 text-left">Experience</button>
                     <button onClick={() => { scrollTo("education"); setMenuOpen(false); }} className="hover:text-green-500 text-left">Education</button>
+                    <button onClick={() => { scrollTo("projects"); setMenuOpen(false); }} className="hover:text-green-500 text-left">Projects</button>
                     <button onClick={() => { scrollTo("contact"); setMenuOpen(false); }} className="hover:text-green-500 text-left">Contact</button>
                 </div>
             )}
