@@ -13,11 +13,11 @@ export default function Contact() {
                         <FaGithub className="w-12 h-12" />
                     </a>
                     <a href="https://www.linkedin.com/in/twalsh23/" aria-label="LinkedIn Thomas Walsh">
-                        <FaLinkedin href="gmail.com" className="w-12 h-12" />
+                        <FaLinkedin className="w-12 h-12" />
 
                     </a>
                     <a href="mailto:thomasmwalsh217@gmail.com" aria-label="Gmail Thomas Walsh">
-                        <MdEmail href="gmail.com" className="w-12 h-12" />
+                        <MdEmail className="w-12 h-12" />
                     </a>
                 </div>
             </div>
